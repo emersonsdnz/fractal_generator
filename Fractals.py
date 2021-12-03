@@ -39,7 +39,7 @@ def get_col(x): #gets the color of the image drawn based on the root the complex
             min_dist = d
     return cols[root_num]
 
-size = 200
+size = 1000
 
 img = Image.new(mode = "RGB", size = (size, size))
 draw = ImageDraw.Draw(img)
